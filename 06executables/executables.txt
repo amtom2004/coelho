@@ -1,0 +1,12 @@
+$ go env
+
+find the GOOS argument value, it would be darwin for Mac => GOOS='darwin'
+
+for creating executables
+
+1. for Mac
+    go build -> filename
+2. for Windows
+    GOOS="windows" go build -> filename.exe
+3. for Linux
+    GOOS="linux" go build -> filename
